@@ -24,7 +24,7 @@ layout: default
 	</div>
 </div>
 
-<div id="ajax-target"></div>
+<div class="sub-section" id="ajax-target"></div>
 
 <script>
 	document.querySelector('#select-platform').addEventListener('click', function once(e) {
