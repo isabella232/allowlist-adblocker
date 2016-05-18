@@ -3,7 +3,7 @@ title: uBlock Origin
 layout: default
 ---
 
-# Whitelisting a site in Ublock Origin
+# Whitelisting a site in Ublock Origin (uBo)
 ![UBlockOrigin](./images/uBlockOrigin.png)
 
 1. Navigate to the site you wish to whitelist
