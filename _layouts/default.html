@@ -7,6 +7,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="https://build.origami.ft.com/v2/bundles/css?modules=o-techdocs@^5.0.0,o-fonts@^2.1.1" rel="stylesheet">
     <script src="https://build.origami.ft.com/v2/bundles/js?modules=o-techdocs@^5.0.0"></script>
+	<script src="https://cdn.polyfill.io/v2/polyfill.min.js?features=fetch,default"></script>
     <style>
 
         html, body {
@@ -89,6 +90,16 @@
 
 		#ajax-target {
 			margin-top: 1em;
+		}
+
+		img {
+			float: right;
+			max-width: 100vw;
+			max-height: 66vh;
+		}
+
+		footer {
+			clear: both;
 		}
     </style>
 </head>

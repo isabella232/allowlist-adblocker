@@ -11,9 +11,9 @@ layout: default
 
 <div class="section collapsed" id="select-adblock">
 	<div class="sub-section collapsed" id="desktop-list">
+		<a class="select" href="{{ site.baseurl }}/ubo.html">uBlock Origin</a>
 		<a class="select" href="{{ site.baseurl }}/abp.html">Adblock Plus</a>
 		<a class="select" href="{{ site.baseurl }}/ub.html">uBlock</a>
-		<a class="select" href="{{ site.baseurl }}/ubo.html">uBlock Origin</a>
 		<a class="select" href="{{ site.baseurl }}/brave.html">Brave Browser</a>
 	</div>
 	<div class="sub-section collapsed" id="android-list">
