@@ -1,4 +1,6 @@
-
+---
+layout: default
+---
 # Whitelisting a site in AdBlockPlus for Android (ABP)
 ![UBlockOrigin](./images/adBlockPlusAndroid.png)
 
