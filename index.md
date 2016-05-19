@@ -11,13 +11,13 @@ layout: default
 
 <div class="section collapsed" id="select-adblock">
 	<div class="sub-section collapsed" id="desktop-list">
-		<a class="select" href="{{ site.baseurl }}/ubo.html">uBlock Origin</a>
-		<a class="select" href="{{ site.baseurl }}/abp.html">Adblock Plus</a>
-		<a class="select" href="{{ site.baseurl }}/ub.html">uBlock</a>
-		<a class="select" href="{{ site.baseurl }}/brave.html">Brave Browser</a>
+		<a class="select" href="{{ site.github.url }}/ubo.html">uBlock Origin</a>
+		<a class="select" href="{{ site.github.url }}/abp.html">Adblock Plus</a>
+		<a class="select" href="{{ site.github.url }}/ub.html">uBlock</a>
+		<a class="select" href="{{ site.github.url }}/brave.html">Brave Browser</a>
 	</div>
 	<div class="sub-section collapsed" id="android-list">
-		<a class="select" href="{{ site.baseurl }}/android-abp.html">Adblock Plus</a>
+		<a class="select" href="{{ site.github.url }}/android-abp.html">Adblock Plus</a>
 	</div>
 	<div class="sub-section collapsed" id="ios-list">
 		None Yet
