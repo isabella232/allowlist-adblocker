@@ -30,9 +30,11 @@
 			font-size: 3em;
 			background: white;
 			padding: 0 0.1em;
+			white-space: nowrap;
 		}
 
 		.sub-section:not(.collapsed):not(:empty) {
+			display: inline-block;
 			animation: 1s linear appear;
 		}
 
@@ -41,31 +43,29 @@
 		}
 
 		@keyframes disappear {0% {
-			display: inline-block;
 			transform: translateY(0);
 			opacity: 1;
+			margin-bottom: 0;
 		} 99% {
-			display: inline-block;
+			position: relative;
 		} 100% {
-			display: none;
-			transform: translateY(-100%);
+			margin-bottom: -15vmax;
+			margin-top: 0;
+			transform: translateY(-200%);
 			opacity: 0;
 		}  }
 
 		@keyframes appear {0% {
-			display: none;
 			opacity: 0;
-		} 1% {
-			display: inline-block;
 		} 100% {
-			display: none;
 			opacity: 1;
 		}  }
 
 		.sub-section.selected .select {
 			animation: 1s linear disappear;
-			display: none;
+			animation-fill-mode: forwards;
 			overflow: hidden;
+			margin-top: 0;
 		}
 
 		.sub-section.selected .select.selected {
@@ -74,7 +74,6 @@
 			z-index: 2;
 			box-shadow: none;
 			height: initial;
-			padding: 0;
 			line-height: 1em;
 			background-color: white;
 			font-size: 1.5em;
@@ -126,22 +125,22 @@
             <div class="o-techdocs-sidebar">
                 <ul class="o-techdocs-nav">
                     <li aria-expanded="true">
-                        <a href="{{ site.baseurl }}/">Index</a>
+                        <a href="{{ site.github.url }}/">Index</a>
 						<ul class="o-techdocs-nav o-techdocs-nav--sub">
 							<li{% if page.title == 'Adblock Plus' %} aria-selected="true"{% endif %}>
-								<a href="{{ site.baseurl }}/abp.html">Adblock Plus</a>
+								<a href="{{ site.github.url }}/abp.html">Adblock Plus</a>
 							</li>
 
 							<li{% if page.title == 'uBlock' %} aria-selected="true"{% endif %}>
-								<a href="{{ site.baseurl }}/ub.html">uBlock</a>
+								<a href="{{ site.github.url }}/ub.html">uBlock</a>
 							</li>
 
 							<li{% if page.title == 'uBlock Origin' %} aria-selected="true"{% endif %}>
-								<a href="{{ site.baseurl }}/ubo.html">uBlock Origin</a>
+								<a href="{{ site.github.url }}/ubo.html">uBlock Origin</a>
 							</li>
 
 							<li{% if page.title == 'Brave Browser' %} aria-selected="true"{% endif %}>
-								<a href="{{ site.baseurl }}/brave.html">Brave Browser</a>
+								<a href="{{ site.github.url }}/brave.html">Brave Browser</a>
 							</li>
 						</ul>
                     </li>
