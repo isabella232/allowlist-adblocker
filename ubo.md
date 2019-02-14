@@ -3,9 +3,9 @@ title: uBlock Origin
 layout: default
 ---
 
-# Whitelisting a site in Ublock Origin (uBo)
+# Allowing a site in Ublock Origin (uBo)
 ![UBlockOrigin](./images/uBlockOrigin.png)
 
-1. Navigate to the site you wish to whitelist
-1. click the uBLock Origin icon
-1. click the blue IO symbol to disable the the extension for the website.
+1. Navigate to the site you wish to allow
+1. Click the uBLock Origin icon
+1. Click the blue IO symbol to disable the the extension for the website.
